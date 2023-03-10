@@ -1,0 +1,108 @@
+body {
+  margin: 0%;
+}
+
+img {
+  width: 100%;
+}
+
+/* Colors */
+.bg-color-black {
+  background-color: black;
+}
+
+.bg-color-red {
+  background-color: red;
+}
+
+.bg-color-darkgrey {
+  background-color: rgba(33,33,33,255)!important;
+}
+
+.bg-color-blue {
+  background-color: blue;
+}
+
+.navbar-nav .active {
+  border-left: 2px solid white !important;
+}
+
+/* Carousel section */
+.banner-bg-image-1 {
+  background-image: url(../images/image1.jpg);
+}
+
+.banner-bg-image-2 {
+  background-image: url(../images/image2.jpg);
+}
+
+.banner-bg-image-3 {
+  background-image: url(../images/image3.jpg);
+}
+
+.banner-bg-image-1,
+.banner-bg-image-2,
+.banner-bg-image-3 {
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-image-fixed {
+  background-attachment: fixed;
+}
+
+.carousel-caption {
+  bottom: 50% !important;
+  transform: translateY(50%);
+}
+
+.carousel-indicators li {
+  border: 1px solid white !important;
+  background-color: transparent !important;
+}
+
+.carousel-indicators li.active {
+  background-color: white !important;
+}
+
+/* Parallax section */
+.parallax-bg-img-1 {
+  background-image: url(../images/lights.jpg);
+}
+
+.parallax-bg-img-2 {
+  background-image: url(../images/media.jpg);
+}
+
+.parallax-bg-img-1,
+.parallax-bg-img-2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+}
+
+.navbar-dark .navbar-toggler {
+  border: none !important;
+}
+
+.youtube-embeded-video {
+  margin: auto;
+}
+
+.negative-margin-image {
+  margin-top: -100px;
+}
+
+.carousel-flex-start {
+  justify-content: flex-start!important;
+}
+
+.carousel-flex-end {
+  justify-content: flex-end!important;
+}
+
+.hr-style-line {
+  border: 1px solid rgb(32, 32, 32);
+}
+
